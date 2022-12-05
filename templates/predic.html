@@ -5,7 +5,7 @@
     <div class="col-md-7">
         <div class="jumbotron">
             <h4 class="display-4">Inputs</h4>
-            <form action="http://localhost:5000/predecir" method="POST">
+            <form action="http://localhost/predecir" method="POST">
                 SepalLengthCm <span id="spo"></span>
                 <input type="range" min="4.3" max="7.9" step="0.1" name="SepalLengthCm" id="spi"  class="form-control">
                 SepalWidthCm <span id="swo"></span>
@@ -28,7 +28,7 @@
             <img class="card-img-top" src="https://www.consejosparamihuerto.com/wp-content/uploads/2020/01/iris-versicolore.jpg" alt="{{ p }}">
             {% endif %}
             {% if p=='Iris-virginica' %}
-            <img class="card-img-top" src="https://www.fs.fed.us/wildflowers/beauty/iris/Blue_Flag/images/iris_virginica/iris_virginica_virginica_lg.jpg" alt="{{ p }}">
+            <img class="card-img-top" src="https://www.fs.usda.gov/wildflowers/beauty/iris/Blue_Flag/images/iris_virginica/iris_virginica_virginica.jpg" alt="{{ p }}">
             {% endif %}
             <div class="card-body">
               <h5 class="card-title">{{ p }}</h5>
