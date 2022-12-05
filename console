@@ -1,0 +1,5 @@
+docker-compose up
+
+docker build -t clasificador_iris .
+
+docker run -p 5000:5000 clasificador_iris
